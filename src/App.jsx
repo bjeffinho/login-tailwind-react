@@ -12,24 +12,24 @@ export default function App() {
 
           <div className="relative">
             <FiMail className="absolute left-4 top-1/2 -translate-y-1/2 text-lime-400" />
-           <input
-  type="email"
-  placeholder="Seu e-mail"
-  className="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-900 text-white placeholder-lime-400
+            <input
+              type="email"
+              placeholder="Seu e-mail"
+              className="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-900 text-white placeholder-lime-400
              focus:outline-none focus:ring-2 focus:ring-lime-400 focus:ring-offset-2 focus:ring-offset-gray-900
              transition"
-/>
+            />
           </div>
 
           <div className="relative">
             <FiLock className="absolute left-4 top-1/2 -translate-y-1/2 text-lime-400" />
-           <input
-  type="password"
-  placeholder="Sua senha"
-  className="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-900 text-white placeholder-lime-400
+            <input
+              type="password"
+              placeholder="Sua senha"
+              className="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-900 text-white placeholder-lime-400
              focus:outline-none focus:ring-2 focus:ring-lime-400 focus:ring-offset-2 focus:ring-offset-gray-900
              transition"
-/>
+            />
           </div>
 
           <button
